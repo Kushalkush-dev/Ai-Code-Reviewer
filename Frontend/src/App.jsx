@@ -56,7 +56,7 @@ async function getCode() {
           <button onClick={()=>{
             getCode()
 
-          }} className='absolute bg-green-500 right-2 top-3 px-4 py-1.5 rounded-2xl text-white font-medium'>Review</button>
+          }} className='absolute active:scale-90 bg-green-500 right-2 top-3 px-4 py-1.5 rounded-2xl text-white font-medium'>Review</button>
         </div>
       
         <div
