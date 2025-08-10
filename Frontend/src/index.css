@@ -1,1 +1,41 @@
 @import "tailwindcss";
+
+
+.token.operator {
+  background: none !important;
+}
+
+
+#right code {
+  background-color: transparent !important;
+  color: #f0db4f; /* JavaScript yellow */
+}
+
+#right pre {
+  background-color: #1e1e1e !important;
+  border: 1px solid #ff6347; /* Tomato red border */
+  border-radius: 8px;
+  padding: 12px;
+}
+
+
+#right .hljs {
+  background: #1e1e1e !important;
+  color: #e6edf3 !important;
+}
+
+#right .hljs-keyword {
+  color: #c678dd; /* Purple */
+}
+
+#right .hljs-string {
+  color: #98c379; /* Green */
+}
+
+#right .hljs-number {
+  color: #d19a66; /* Orange */
+}
+
+.hljs {
+  color: #ffffff !important; /* bright white base */
+}
