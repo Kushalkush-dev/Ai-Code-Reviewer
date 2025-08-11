@@ -1,10 +1,10 @@
 const express = require('express');
-const router=express.Router();
+const airouter=express.Router();
 const promptResponse =require("../controllers/ai.controllers")
 
-router.post('/getai',promptResponse )
+airouter.post('/getai',promptResponse )
 
 
 
 
-module.exports=router
+module.exports=airouter
