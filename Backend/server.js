@@ -3,7 +3,7 @@ const app=require("./src/app")
 
 require('dotenv').config();
 
-app.listen(3000,()=>{
-  console.log("server running on port 3000");
+app.listen(process.env.PORT,()=>{
+  console.log(`server running on port http://localhost:${process.env.PORT}`);
   
 })
