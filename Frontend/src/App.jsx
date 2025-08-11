@@ -31,7 +31,7 @@ function App() {
 
 async function getCode() {
 
-  const response=await axios.post("http://localhost:3000/ai/getai",{code})
+  const response=await axios.post("http://localhost:5000/ai/getai",{code})
   setreviewedcode(response.data)
   console.log(response.data);
   
